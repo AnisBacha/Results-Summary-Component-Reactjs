@@ -154,4 +154,10 @@ img{
     width: 300px;
     max-width: 300px;
   }
+  .summary h2{
+    padding-block: 1rem;
+  }
+  .summary{
+    margin-inline-start: .75rem;
+  }
 }
