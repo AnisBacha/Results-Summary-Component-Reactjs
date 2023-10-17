@@ -140,13 +140,15 @@ img{
   }
   .results{
     max-width: 300px;
+    height: 100%;
     border-radius: 15px;
+    padding-block: 1.8rem;
   }
   .results h1{
     padding-block-end: 1rem;
   }
   .results__note{
-    margin-block-end: 2rem;
+    margin-block-end: 1.5rem;
   }
   .summary{
     padding: 1rem;
@@ -159,5 +161,8 @@ img{
   }
   .summary{
     margin-inline-start: .75rem;
+  }
+  .summary__list li{
+    margin-block-end: .75rem;
   }
 }
