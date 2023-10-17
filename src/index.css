@@ -21,7 +21,7 @@ body{
 }
 
 .results{
-  background-image: linear-gradient(hsl(252, 100%, 67%),40%,hsl(241, 81%, 54%));
+  background-image: linear-gradient(hsl(252, 100%, 67%),30%,hsl(241, 81%, 54%));
   color: white;
   padding: 1rem;
   border-radius: 0 0 20px 20px;
@@ -88,19 +88,19 @@ img{
 }
 
 .Reaction{
-  background-color: hsla(0, 100%, 67%, 0.1);
+  background-color: hsla(0, 100%, 67%, 0.05);
   color: hsl(0, 100%, 67%);
 }
 .Memory{
-  background-color: hsla(39, 100%, 56%, 0.1);
+  background-color: hsla(39, 100%, 56%, 0.05);
   color: hsl(39, 100%, 56%);
 }
 .Verbal{
-  background-color: hsla(166, 100%, 37%, 0.1);
+  background-color: hsla(166, 100%, 37%, 0.05);
   color: hsl(166, 100%, 37%);
 }
 .Visual{
-  background-color: hsla(234, 85%, 45%, 0.1);
+  background-color: hsla(234, 85%, 45%, 0.05);
   color: hsl(234, 85%, 45%);
 }
 
@@ -141,6 +141,12 @@ img{
   .results{
     max-width: 300px;
     border-radius: 15px;
+  }
+  .results h1{
+    padding-block-end: 1rem;
+  }
+  .results__note{
+    margin-block-end: 2rem;
   }
   .summary{
     padding: 1rem;
